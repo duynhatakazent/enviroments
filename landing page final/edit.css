@@ -1,0 +1,134 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    font-family: "Figtree", sans-serif;
+   }
+
+.title {
+    display: flex;
+    margin-top: 18px;
+    border-radius: 25px;
+    border-bottom: none;
+    border-style: solid;
+    border-color: #4e7a2c56;
+}
+.info{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 25px;
+    align-items: center;
+}
+.ct-button button{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    background-color:#4BAB04;
+    color: #fff;
+    box-shadow: 0px 4px 15px #a1f264e2;
+}
+.ct-button{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.EE{
+    margin-top: 75px;
+    color: #00000084;
+}
+.call{
+    display: flex;
+    flex-direction: column;
+}
+.call h1{
+    font-size: 101px;
+}
+.call h2{
+    font-size: 101px;
+    font-style: italic;
+    color:#4BAB04;
+}
+.texts{
+    margin-left: 40px;
+    width: 40%;
+}
+.JU {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    color: #000000;
+    width: 60%;
+}
+.sign-up{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    column-gap: 245px;
+    border: 2px solid #84a7699e;
+    transition: all 0.5s ease;
+    border-radius: 40px;
+}
+.sign-up button{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    background-color:#4BAB04;
+    color: #fff;
+    box-shadow: 0px 4px 15px #a1f264e2;
+    margin-right: 8px;
+}
+.sign-up input{
+    margin-left: 8px;
+    background-color: transparent;
+}
+.all {
+    display: flex;
+    column-gap: 90px;
+}
+.imgs{
+    margin-top: 42px ;
+}
+.join{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.animate {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s ease;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.move-left {
+    transform: translateX(-100px);
+}
+.move-right {
+    transform: translateX(100px);
+}
+#left {
+    transition-delay: 0.2s;
+}
+#right {
+    transition-delay: 0.4s;
+}
+#subtract {
+    transition-delay: 0.6s;
+}
+#info {
+    transition-delay: 0.8s;
+}
+#sign-up {
+    transition-delay: 1s;
+}
+#page-1{
+    transition-delay:0.1;
+}
+#page-2{
+    transition-delay:0.1;
+}
